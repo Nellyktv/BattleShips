@@ -1,0 +1,31 @@
+{
+  "name": "@battleships/web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit -p tsconfig.json && vite build"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "^6.3.1",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@fontsource/inter": "^5.2.6",
+    "@mui/material": "^7.2.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "konva": "^9.3.22",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-konva": "^19.0.10",
+    "react-router-dom": "^7.7.1",
+    "socket.io-client": "^4.8.1",
+    "zustand": "^5.0.7"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "jsdom": "^26.1.0",
+    "vite": "^7.0.6"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@battleships/contracts",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "vitest run",
+    "build": "tsc -b tsconfig.json --force"
+  },
+  "dependencies": {
+    "zod": "^3.25.76"
+  }
+}

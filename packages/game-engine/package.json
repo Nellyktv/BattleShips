@@ -1,0 +1,14 @@
+{
+  "name": "@battleships/game-engine",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "vitest run",
+    "build": "tsc -b tsconfig.json --force"
+  },
+  "dependencies": {
+    "@battleships/contracts": "0.0.0"
+  }
+}
